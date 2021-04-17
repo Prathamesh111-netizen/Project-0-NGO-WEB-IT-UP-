@@ -1,0 +1,37 @@
+.menu-items{
+    display: flex;
+    background-color: black;
+    color: cornsilk;
+    height: 2em;
+    align-items: center;
+    justify-content: left;
+    padding-left: 3em;
+}
+
+form{
+    display:grid;
+  background-color: salmon;
+  padding:2em;
+  grid-gap:2em;
+  margin-top:4rem;
+  margin-left: 20rem;
+  margin-right: 20em;
+  grid-template-areas:
+  "h h"
+  "u ."
+  "p cp"
+  "sc ."
+  " s ."
+  "l . ";
+  text-align:left;
+  background-color: transparent;
+  box-shadow: 0.1px 0.1px 2px 1px rgb(0, 0, 0) ;
+}  
+.sign-up-form{padding:1em; height:2.5em;}
+#form-heading{ grid-area:h;}
+#username{ grid-area:u;}
+#password { grid-area:p;}
+#confirm_password { grid-area:cp;}
+#Secret_code{ grid-area:sc;}
+#login-page-toggle{ grid-area:l;}
+#sign-up-toggle { grid-area:s; height:3em; font-size: 1em;}

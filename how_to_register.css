@@ -1,0 +1,22 @@
+h2{
+    margin:0.3em;
+}
+.how-to-register{
+    font-family: 'Enriqueta', serif;
+}
+
+.Already-Signed,.New-reg{
+    margin:2em;
+font-size: 1.2em;
+padding: 1em;
+background-color: rgb(250, 243, 221);
+}
+
+.title-sg-1,.title-sg-2{
+    margin:1em;
+   font-weight: bold;
+}
+.img-tick{
+    position:relative;
+    top:0.3em;
+}

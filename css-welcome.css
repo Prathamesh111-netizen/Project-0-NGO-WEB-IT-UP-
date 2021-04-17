@@ -1,0 +1,22 @@
+.containermt{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.submit-docs{
+    border:black;
+    background-color: blanchedalmond;
+    display:grid;
+    grid-template-areas:
+    "pp pp pp"
+    "a1 a1 ."
+    "a2 . ."
+    " a3 . .";
+    padding: 3em;
+    font-size: 1em;
+}
+.text-in{grid-area: a1 ; ;}
+.file-in{grid-area: a2; }
+.submit-in{grid-area: a3 ; width:6em; height:3em;}
+.para-p{grid-area:pp; font-size: 5em;}

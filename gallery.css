@@ -1,0 +1,34 @@
+.photo-gal-container{
+    grid-auto-flow: row;
+    margin:3em;
+    border:rgb(2, 0, 0) 2px solid;
+    
+}
+.photo-gal-items{
+    display:inline-block;
+    width:30%;
+    border:black 2px solid;
+    margin:1em;
+    padding: 2em;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.photo-gal-itemsx{
+     width:100%;
+filter: grayscale(100%);
+
+}
+.photo-gal-itemsy{
+    width:100%;
+}
+.photo-gal-itemsx:hover{
+    filter: grayscale(0);
+}
+p{
+    text-align: center;
+}
+
+.hover-inst{
+    font-size: 2em;
+    margin:1em;
+    color:coral;
+}

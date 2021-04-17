@@ -1,0 +1,45 @@
+.menu-items{
+    display: flex;
+    background-color: black;
+    color: cornsilk;
+    height: 2em;
+    align-items: center;
+    justify-content: left;
+    padding-left: 3em;
+}
+form{
+    display:grid;
+  padding:2em;
+  grid-gap:2em;
+  margin-top:4rem;
+  margin-left: 30rem;
+  margin-right: 30em;
+  grid-template-areas:
+  "h h"
+  " sn sn"
+  "e m"
+  "u u"
+  " col col"
+  "p cp"
+  "sc ."
+  "s ."
+  "l .";
+
+  font-family: 'RocknRoll One', sans-serif;
+  text-align:left;
+  background-color: transparent;
+  box-shadow: 0.1px 0.1px 2px 1px rgb(0, 0, 0) ;
+}  
+.sign-up-form{padding:1em; height:2.5em;}
+#college{grid-area: col;}
+#form-heading{ grid-area:h;}
+#student_name{ grid-area:sn;}
+#email{ grid-area:e;}
+#mobile { grid-area:m;}
+#username{ grid-area:u;}
+#password { grid-area:p;}
+#Secret_code{ grid-area:sc;}
+#confirm_password { grid-area:cp;}
+#login-page-toggle{ grid-area:l; cursor: pointer;}
+
+#sign-up-toggle { grid-area:s; height:3em; font-size: 1em; }
